@@ -1,6 +1,7 @@
 ## Warning
 - This requires the [MinGW GCC](https://sourceforge.net/projects/mingw/) compiler to be installed.
-- Make sure you add your MinGW GCC installation path to the User `Path` variable in System Environment Variables.
+- Make sure you add your MinGW GCC installation path to the User `Path` variable in your Environment Variables.
+    - Go to Settings > (Search) Edit Environment Variables For Your Account > Path > New > `<MinGW bin path>`
 - The script doesn't work with MS PowerShell, so when using the VSCode integrated terminal, **ensure** you are using _Command Prompt_.
 
 # How to use?
