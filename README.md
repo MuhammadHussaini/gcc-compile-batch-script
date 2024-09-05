@@ -1,3 +1,8 @@
+## Warning
+- This requires the [MinGW GCC](https://sourceforge.net/projects/mingw/) compiler to be installed.
+- Make sure you add your MinGW GCC installation path to the User `Path` variable in System Environment Variables.
+- The script doesn't work with MS PowerShell, so when using the VSCode integrated terminal, **ensure** you are using _Command Prompt_.
+
 # How to use?
 
 1. Open _**Windows Command Prompt**_ or a _**VSCode (cmd) Terminal**_ from the directory you wish to put the script file in.
@@ -40,6 +45,3 @@ run folder\file.c
 ```
 
 _Note_: The corresponding `.exe`'s are created in the same directory in which the corresponding `.c` file exists
-
-## Warning
-The script doesn't work with MS PowerShell, so when using the VSCode integrated terminal, **ensure** you are using _Command Prompt_.
